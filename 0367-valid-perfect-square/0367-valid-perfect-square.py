@@ -1,7 +1,7 @@
 class Solution:
     def findSquareRoot(self,num):
         l,h,ans=1,num,0
-        while l<h:
+        while l<=h:
             mid=(l+h)//2
             if mid*mid==num:
                 return mid
